@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="task.css" />
   </head>
   <body align="center" bgcolor="#424952">
+    <form action="">
     <table border="1" align="center">
       <thead>
         <tr>
@@ -17,7 +18,6 @@
         <tr>
           <td class="mean">Şəkil yükləyin</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="file"></label>
               <input
                 type="file"
@@ -25,22 +25,18 @@
                 id="file"
                 name="file"
               />
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Ad</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="name"></label>
               <input type="text" placeholder="Ad" id="Name" name="name" />
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Soyad</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="surname"></label>
               <input
                 type="text"
@@ -48,33 +44,27 @@
                 id="surname"
                 name="surname"
               />
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Doğum tarixi</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="date"></label>
               <input type="date" id="date" name="date" />
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Cinsiyyət</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="cinsiyyət">kişi</label>
               <input type="radio" id="kişi" name="cinsiyyət" />
               <label for="cinsiyyət">qadın</label>
               <input type="radio" id="Qadın" name="cinsiyyət" />
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Email</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="email"></label>
               <input
                 type="email"
@@ -82,32 +72,26 @@
                 name="email"
                 placeholder="Emailinizi yazın"
               />
-            </form>
           </td>
         </tr>
         <tr>
           <td rowspan="2" class="mean">Əlaqə</td>
           <td bgcolor="#799895"><b>tel:</b></td>
           <td class="cell">
-            <form action="">
               <label for="phone"></label>
-              <input type="tel" id="phone" name="phone" placeholder="phone" />
-            </form>
+              <input type="tel" id="telefon" name="phone" placeholder="phone" />
           </td>
         </tr>
         <tr>
           <td bgcolor="#799895"><b>tel:</b></td>
           <td class="cell">
-            <form action="">
               <label for="phone"></label>
-              <input type="tel" id="phone" name="phone" placeholder="phone" />
-            </form>
+              <input type="tel" id="tele" name="phone" placeholder="phone" />
           </td>
         </tr>
         <tr>
           <td class="mean">Təcrübələriniz</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="practice"></label>
               <textarea
                 id="practice"
@@ -116,56 +100,48 @@
                 cols="50"
                 placeholder="Təcrübələrinizi qeyd edin..."
               ></textarea>
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Xarici dillər</td>
           <td colspan="2" class="cell">
-            <form action="">
-              <label for="">İngilis dili</label>
-              <input type="radio" />
-              <label for="">Türk dili</label>
-              <input type="radio" />
-              <label for="">Rus dili</label>
-              <input type="radio" />
-            </form>
+              <label for="Dil">İngilis dili</label>
+              <input type="radio" id="İngilis" name="Dil"/>
+              <label for="Dil">Türk dili</label>
+              <input type="radio" id="Turk" name="Dil"/>
+              <label for="Dil">Rus dili</label>
+              <input type="radio" id="Rus" name="Dil"/>
           </td>
         </tr>
         <tr>
           <td class="mean">Əsgərlik</td>
           <td colspan="2" class="cell">
-            <form action="">
               <label for="Hərbi_xidmət"></label>
               <select name="Hərbi_xidmət" id="Hərbi">
                 <option disabled selected value="">Xidmətdə olub</option>
                 <option value="Bəli">Bəli</option>
                 <option value="Xeyr">Xeyr</option>
               </select>
-            </form>
           </td>
         </tr>
         <tr>
           <td class="mean">Təhsil</td>
           <td colspan="2" class="cell">
-            <form action="">
               <select name="Təhsil" id="">
                 <option value="Orta">Orta təhsil</option>
                 <option value="Ali">Ali təhsil</option>
               </select>
-            </form>
           </td>
         </tr>
         <tr>
           <td colspan="3" class="mean">
-            <form action="">
               <label for="təstiq"></label>
               <input type="submit" name="təstiq" value="Təsdiq et" />
-            </form>
           </td>
         </tr>
       </tbody>
     </table>
+  </form>
     <hr />
     <hr />
 
