@@ -1,0 +1,20 @@
+table, th, td {
+        border-collapse: collapse;
+        border: 2px solid black;
+      }
+      tr {
+        height: 40px;
+      }
+      hr {
+        border: 1px solid green;
+      }
+
+      .mean {
+        background-color: #8fbc8f;
+        font-weight: bold;    
+      }
+
+      .cell {
+        background-color: aliceblue;
+        font-weight: bold;  
+      }
